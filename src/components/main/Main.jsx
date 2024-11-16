@@ -5,7 +5,7 @@ function Main() {
     <section className="main-content">
       <main className="main">
         <img
-          src="./src/assets/images/image-web-3-desktop.jpg"
+          src="/assets/images/image-web-3-desktop.jpg"
           alt="article thumbnail"
           className="thumbnail"
         />
@@ -45,7 +45,7 @@ function Main() {
       <section className="top-articles">
         <div className="top-items item1">
           <img
-            src="./src/assets/images/image-retro-pcs.jpg"
+            src="/assets/images/image-retro-pcs.jpg"
             alt="retro pcs"
             className="top-art"
           />
@@ -59,7 +59,7 @@ function Main() {
         </div>
         <div className="top-items item2">
           <img
-            src="./src/assets/images/image-top-laptops.jpg"
+            src="/assets/images/image-top-laptops.jpg"
             alt="Top Laptops"
             className="top-art"
           />
@@ -73,7 +73,7 @@ function Main() {
         </div>
         <div className="top-items item3">
           <img
-            src="./src/assets/images/image-gaming-growth.jpg"
+            src="/assets/images/image-gaming-growth.jpg"
             alt="gaming growth"
             className="top-art"
           />

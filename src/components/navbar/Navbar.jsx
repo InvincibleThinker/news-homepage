@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <img
-        src="../../assets/images/logo.svg"
+        src="/public/assets/images/logo.svg"
         alt="company-logo"
         className="web-logo"
       />
