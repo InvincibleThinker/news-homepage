@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/InvincibleThinker/news-homepage.git
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://news-homepage-phi-eight.vercel.app/
 
 ## My process
 
