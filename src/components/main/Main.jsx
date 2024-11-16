@@ -42,7 +42,50 @@ function Main() {
           </p>
         </div>
       </aside>
-      <section className="top-articles"></section>
+      <section className="top-articles">
+        <div className="top-items item1">
+          <img
+            src="./src/assets/images/image-retro-pcs.jpg"
+            alt="retro pcs"
+            className="top-art"
+          />
+          <div className="art-des">
+            <h1 className="art-rate">01</h1>
+            <p className="art-title">Reviving Retro PCs</p>
+            <p className="art-desc">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div className="top-items item2">
+          <img
+            src="./src/assets/images/image-top-laptops.jpg"
+            alt="Top Laptops"
+            className="top-art"
+          />
+          <div className="art-des">
+            <h1 className="art-rate">02</h1>
+            <p className="art-title">Top 10 Laptops of 2022</p>
+            <p className="art-desc">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <div className="top-items item3">
+          <img
+            src="./src/assets/images/image-gaming-growth.jpg"
+            alt="gaming growth"
+            className="top-art"
+          />
+          <div className="art-des">
+            <h1 className="art-rate">03</h1>
+            <p className="art-title">The Growth of Gaming</p>
+            <p className="art-desc">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </section>
     </section>
   );
 }
