@@ -5,6 +5,7 @@ function Main() {
     <section className="main-content">
       <main className="main"></main>
       <aside className="side-new"></aside>
+      <section className="top-articles"></section>
     </section>
   );
 }

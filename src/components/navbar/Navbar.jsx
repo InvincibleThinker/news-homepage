@@ -9,11 +9,11 @@ function Navbar() {
         className="web-logo"
       />
       <ul className="navlist">
-        <li className="navitems">Home</li>
-        <li className="navitems">New</li>
-        <li className="navitems">Popular</li>
-        <li className="navitems">Trending</li>
-        <li className="navitems">Categories</li>
+        <li className="navitems home">Home</li>
+        <li className="navitems new">New</li>
+        <li className="navitems popular">Popular</li>
+        <li className="navitems trending">Trending</li>
+        <li className="navitems categories">Categories</li>
       </ul>
     </nav>
   );

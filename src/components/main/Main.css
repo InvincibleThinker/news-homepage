@@ -1,1 +1,31 @@
 @import "../../App.css";
+
+.main-content {
+  width: 100%;
+  height: 80vh;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  column-gap: var(--space-m);
+  row-gap: var(--space-m);
+  margin: var(--space-m) 0;
+}
+
+.main {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  background-color: rgb(0, 0, 0);
+}
+
+.side-new {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  background-color: gray;
+}
+
+.top-articles {
+  grid-column: 1 / 4;
+  grid-row: 2 / 4;
+  background-color: orange;
+}

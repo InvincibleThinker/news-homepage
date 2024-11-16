@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: space-between;
   padding: var(--space-l) 0;
+  padding-bottom: 0px;
 }
 
 .navlist {
@@ -21,6 +22,10 @@
   font-size: var(--fs--2);
   color: var(--Dark-grayish-blue);
   transition: color 0.2s ease;
+}
+
+.categories {
+  padding-right: 0;
 }
 
 .navitems:hover {
