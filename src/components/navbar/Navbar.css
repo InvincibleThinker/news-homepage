@@ -32,6 +32,10 @@
   cursor: pointer;
   color: var(--Soft-orange);
 }
+.close-nav-button,
+.open-nav-button {
+  display: none;
+}
 
 @media screen and (max-width: 500px) {
   .navlist {
