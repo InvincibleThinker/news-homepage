@@ -30,8 +30,9 @@ Users should be able to:
 ### Screenshot
 
 ![](./src/design/desktop-design.jpg)
+![](./src/design/mobile-design.jpg)
 
-**screenshot of desktop design.**
+**screenshot of desktop design and mobile design.**
 
 ### Links
 

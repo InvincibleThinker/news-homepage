@@ -63,6 +63,11 @@
     margin-top: var(--space-3xl);
   }
 
+  .close-nav-button,
+  .open-nav-button {
+    display: block;
+  }
+
   .close-nav-button {
     position: absolute;
     margin-right: var(--space-s);
