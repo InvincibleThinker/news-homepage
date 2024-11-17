@@ -21,7 +21,7 @@ function Navbar() {
         className="open-nav-button"
         onClick={() => toggleMenu()}
       />
-      <ul className={`navlist ${isActive ? "open-nav" : "close-nav"}`}>
+      <ul className={`navlist ${isActive ? "close-nav" : "open-nav"}`}>
         <img
           src="/assets/images/icon-menu-close.svg"
           alt="close menu button"
