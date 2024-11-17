@@ -1,6 +1,12 @@
+import { useState } from "react";
 import "./Navbar.css";
 
 function Navbar() {
+  let [isActive, setIsActive] = useState("false");
+  let toggleMenu = () => {
+    setIsActive(!isActive);
+  };
+
   return (
     <nav className="navbar">
       <img
@@ -8,7 +14,20 @@ function Navbar() {
         alt="company-logo"
         className="web-logo"
       />
-      <ul className="navlist">
+
+      <img
+        src="/assets/images/icon-menu.svg"
+        alt="open menu button"
+        className="open-nav-button"
+        onClick={() => toggleMenu()}
+      />
+      <ul className={`navlist ${isActive ? "open-nav" : "close-nav"}`}>
+        <img
+          src="/assets/images/icon-menu-close.svg"
+          alt="close menu button"
+          className="close-nav-button"
+          onClick={() => toggleMenu()}
+        />
         <li className="navitems home">Home</li>
         <li className="navitems new">New</li>
         <li className="navitems popular">Popular</li>
